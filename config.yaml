@@ -1,0 +1,13 @@
+misp:
+  url: "UrlMispo"
+  poll_interval: 300  
+
+discord:
+  channels:
+    alerts: idChanoucava
+    ioc: idchantoutapareil
+
+filters:
+  tlp: ["white", "green"]  # TLP acceptés
+  min_threat_level: 2       
+  tags_exclude: ["test", "to-ids"]
